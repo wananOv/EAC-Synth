@@ -1,0 +1,42 @@
+[
+  {
+    "question": "A patient presents with bilateral central scotomas and impaired colour vision. His maternal relatives show similar symptoms. The culprit gene encodes a subunit of Complex I. Which mitochondrial gene is most likely mutated, and via which pathway does its dysfunction lead to optic nerve degeneration?",
+    "steps": [
+      "Step 1: The maternal inheritance pattern suggests a mitochondrial disorder.",
+      "Step 2: Complex I subunit dysfunction in retinal ganglion cells impairs ATP synthesis.",
+      "Step 3: Energy deficit triggers apoptosis of optic nerve fibres.",
+      "Step 4: The MT-ND4 gene encodes the ND4 subunit of Complex I."
+    ],
+    "answer": "MT-ND4",
+    "path": [
+      {
+        "src": "MT-TK",
+        "relation": "causes",
+        "dst": "mitochondrial_dysfunction",
+        "score": 0.784,
+        "temporal": null,
+        "ctx": null
+      }
+    ]
+  },
+  {
+    "question": "A patient presents with bilateral central scotomas and impaired colour vision. His maternal relatives show similar symptoms. The culprit gene encodes a subunit of Complex I. Which mitochondrial gene is most likely mutated, and via which pathway does its dysfunction lead to optic nerve degeneration?",
+    "steps": [
+      "Step 1: The maternal inheritance pattern suggests a mitochondrial disorder.",
+      "Step 2: Complex I subunit dysfunction in retinal ganglion cells impairs ATP synthesis.",
+      "Step 3: Energy deficit triggers apoptosis of optic nerve fibres.",
+      "Step 4: The MT-ND4 gene encodes the ND4 subunit of Complex I."
+    ],
+    "answer": "MT-ND4",
+    "path": [
+      {
+        "src": "MT-ND4",
+        "relation": "located_in",
+        "dst": "mitochondria",
+        "score": 0.6880000000000001,
+        "temporal": null,
+        "ctx": null
+      }
+    ]
+  }
+]
